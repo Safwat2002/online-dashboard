@@ -1,0 +1,53 @@
+.home-page{
+    display: flex;
+    background-color: #EFF4FB;
+}
+
+.home-content{
+    flex:5
+}
+
+.home-content .content{
+    width:90%;
+    margin:auto;
+}
+
+.home-page .top{
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .buttons button{
+background-color: #00b5d4;
+padding:10px;
+border:none;
+outline: none;
+width:60px;
+height: 60px;
+margin-right: 5px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.home-content .widgets{
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+}
+
+.home-content .filters{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 1rem;
+}
+
+.home-content .charts{
+    margin-top:50px;
+    display: flex;
+    column-gap: 1.5rem;
+    justify-content: space-between;
+}

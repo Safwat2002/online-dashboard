@@ -1,0 +1,76 @@
+.filter-container {
+    text-align: center;
+}
+
+.filter-container .filter-button{
+    position:relative;
+}
+
+#filterButton {
+    width: 135px;
+    height: 60px;
+    padding:20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #00b5d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.filter-container .filter-button img{
+    position:absolute;
+    top:20px;
+    right: 20px;
+    width: 24px;
+    height: 26px;
+}
+
+.filter-container .checkbox-list {
+    display: none; /* Hidden by default */
+    text-align: left;
+    background-color: #fff;
+    border:2px solid rgb(234, 227, 227);
+    margin-top:5px;
+    animation-name: slowMotion;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    z-index: 100;
+    max-width: 135px;
+}
+
+.filter-container .checkbox-list label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding:15px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(234, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 0.6rem;
+    z-index: -10000;
+}
+
+.filter-container .checkbox-list label:hover{
+    background-color:#4bb4c6 ;
+}
+
+.filter-container .checkbox-list label input{
+    width:20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+@keyframes slowMotion{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

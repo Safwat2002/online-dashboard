@@ -1,0 +1,47 @@
+
+.goverment-filter{
+    width: 100%;
+}
+
+.goverment-filter .title{
+    padding:20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.goverment-filter .custom-selectbox{
+    background-color: #fff;
+    position:relative;
+}
+
+.goverment-filter .header{
+    background-color: #fff;
+    display: flex;
+    padding:0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    cursor: pointer;
+    box-shadow: 4px 8px 14px -7px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid lightgray;
+}
+
+.goverment-filter .options{
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index:1000;
+    display: none;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.goverment-filter .option{
+    border-bottom: 1px solid lightgray;
+    padding: 18px;
+    cursor:pointer
+}
+
+.goverment-filter .option:hover{
+    background-color: aliceblue;
+}

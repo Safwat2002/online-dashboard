@@ -1,0 +1,14 @@
+
+
+.css-10npu3p-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+    background-color: #fff;
+    height: 65px;
+    box-shadow: 4px 8px 14px -7px rgba(0, 0, 0, 0.15);
+    border: none;
+    color:#000;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    border:none;
+    height: 100%;
+}

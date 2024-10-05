@@ -1,0 +1,45 @@
+.filtre, .diagramme{
+    background-color: #fff;
+    flex:1;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.filtre .header,.diagramme .header{
+    margin: 30px 30px
+}
+
+.filtre,.diagramme .header h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.filter-box{
+    position: absolute;
+    top:30px;
+    right:30px
+}
+
+.legend{
+    margin:100px;
+}
+
+.diagramme{
+    background-color: #fff;
+    flex:1;
+    padding:20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.diagramme-legend{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}

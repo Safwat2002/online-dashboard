@@ -1,0 +1,141 @@
+.navbar {
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    color:#fff;
+    height: 100px;
+}
+
+.navbar .container{
+    width:90%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar .logo img{
+    width: 167px;
+    height: 77px;
+}
+
+
+.navbar .tools{
+    flex:3;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar .tools .search{
+    height:60px;
+    width:550px;
+    background-color: black;
+    position:relative;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .tools .search img{
+    position:absolute;
+    top:13px;
+    left:15px;
+    width:32px;
+    height: 32px;
+}
+
+.navbar .tools .search input{
+    width:100%;
+    text-indent: 55px;
+    font-size:20px;
+    border-radius:250px;
+    outline: none;
+    border:none
+}
+
+.navbar .notification{
+    background-color: #fff;
+    padding:15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    cursor: pointer;
+}
+
+.navbar .notification img{
+    width: 26px;
+    height: 26px;
+}
+.navbar .notification .count{
+    width:30px;
+    height: 30px;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background-color: red;
+    color:white;
+    font-weight: 400;
+    font-size:15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar .tools .user-info{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 1.5rem;
+    background-color: #fff;
+    padding:8px 10px;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.navbar .tools .user-info .user-img{
+    height: 50px;
+    width: 55px;
+}
+.navbar .tools .user-info .user-img img{
+    height: 50px;
+    width: 55px;
+}
+
+
+.navbar .tools .user-info .info{
+    
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 33px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 177px;
+}
+
+.navbar .tools .user-info .info .name{
+    color: #00388c;
+    ;
+}
+
+.navbar .tools .user-info .info .role{
+    color:#a9a9a9
+}
+
+
+.navbar .tools .user-info .more{
+    align-self: center;
+    margin-right:10px;
+    font-weight: bold;
+}

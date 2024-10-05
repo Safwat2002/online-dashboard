@@ -1,0 +1,50 @@
+.widget{
+    height:280px;
+    box-shadow: 4px 8px 14px -7px #00000026;
+    background-color: #fff;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.widget .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget .icon img{
+    width: 60%;
+    height: 60%;
+}
+
+.widget .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.widget .rating .topNum{
+    font-size:30px;
+    font-weight: 600;
+}
+
+.widget .rating .buttomNum{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.widget .description{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.widget .description img{
+    width:20px;
+    height: 20px;
+}

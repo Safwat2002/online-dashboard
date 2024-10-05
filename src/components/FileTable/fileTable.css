@@ -1,0 +1,99 @@
+.file-table{
+    margin-top:30px;
+    margin-bottom: 100px;
+    padding:20px;
+    background-color: white;
+    height: 430px;
+    overflow-y:scroll;
+}
+
+.file-table table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.file-table th,td{
+    padding:10px;
+    text-align: center;
+}
+
+.file-table th{
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.file-table td{
+    color:#9a9595;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.file-table .actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+
+.file-table .actions a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor:pointer
+}
+
+.file-table .actions a:nth-of-type(1){
+    background-color: #00afcf;
+}
+.file-table .actions a:nth-of-type(2){
+    background-color: #70c700;
+}
+.file-table .actions a:nth-of-type(3){
+    background-color: #ff0700;
+}
+.file-table .actions a:nth-of-type(4){
+    border: 0.1px solid #000;
+}
+.file-table .actions a:nth-of-type(5) img{
+    width: 100%;
+    height: 100%;
+}
+
+.file-table .actions img{
+    width:20px;
+    height: 20px;
+}
+
+.file-table .status{
+    display:inline-block;
+    width:90px;
+    padding:10px;
+    color:#fff;
+    border-radius: 30px;
+}
+
+.verified{
+    background-color: #70c700;
+}
+
+.cancelled{
+    background-color: #C82DB3;
+}
+
+.sent{
+    background-color: #FF8700;
+}
+
+.rejected{
+    background-color: #F22540;
+}
+
+.signed{
+    background-color: #00AFCF;
+}
